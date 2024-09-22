@@ -1,0 +1,38 @@
+2024-09-18 22:03:30,347 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-18 22:03:40,233 - INFO - Saved uploaded file to temp_e3f8cc8266c4422c965b16006b0dc6ca.pdf.
+2024-09-18 22:03:40,297 - INFO - Extracted text length: 3105
+2024-09-18 22:03:40,800 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:03:41,111 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:03:41,113 - INFO - Deleted temporary file temp_e3f8cc8266c4422c965b16006b0dc6ca.pdf.
+2024-09-18 22:04:07,502 - INFO - Saved uploaded file to temp_1148d3fdf0d34d9da24b907b041e1332.pdf.
+2024-09-18 22:04:07,543 - INFO - Extracted text length: 3105
+2024-09-18 22:04:07,908 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:04:08,113 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:04:08,114 - INFO - Deleted temporary file temp_1148d3fdf0d34d9da24b907b041e1332.pdf.
+2024-09-18 22:04:14,956 - INFO - Saved uploaded file to temp_f36f2095e2684a41951e244de034671a.pdf.
+2024-09-18 22:04:15,006 - INFO - Extracted text length: 3105
+2024-09-18 22:04:15,567 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:04:15,811 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:04:15,816 - INFO - Deleted temporary file temp_f36f2095e2684a41951e244de034671a.pdf.
+2024-09-18 22:04:16,079 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:04:16,101 - INFO - Constructed prompt: Context:
+Data Scientist Role Description: Ideal team member will have the mathematical and statistic...
+2024-09-18 22:16:41,205 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-18 22:16:49,755 - INFO - Saved uploaded file to temp_4fa6859ad5974275b5eb99ec9820c5e1.pdf.
+2024-09-18 22:16:49,862 - INFO - Extracted text length: 3105
+2024-09-18 22:16:50,675 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:16:51,004 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:16:51,006 - INFO - Deleted temporary file temp_4fa6859ad5974275b5eb99ec9820c5e1.pdf.
+2024-09-18 22:17:01,032 - INFO - Saved uploaded file to temp_bae7226b62a148ea9aa2975525a120f0.pdf.
+2024-09-18 22:17:01,092 - INFO - Extracted text length: 3105
+2024-09-18 22:17:01,570 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:17:01,900 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:17:01,905 - INFO - Deleted temporary file temp_bae7226b62a148ea9aa2975525a120f0.pdf.
+2024-09-18 22:17:09,097 - INFO - Saved uploaded file to temp_d55d1881630d44dd9a27a16201ffb0f4.pdf.
+2024-09-18 22:17:09,194 - INFO - Extracted text length: 3105
+2024-09-18 22:17:09,570 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:17:09,799 - INFO - Added 4 documents from JD_Data Scientist.pdf to ChromaDB.
+2024-09-18 22:17:09,803 - INFO - Deleted temporary file temp_d55d1881630d44dd9a27a16201ffb0f4.pdf.
+2024-09-18 22:17:10,103 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-18 22:17:10,115 - INFO - Constructed prompt: Context:
+on Skills – it is incredibly important to describe findings to a technical and non-technica...
