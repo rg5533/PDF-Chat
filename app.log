@@ -36,3 +36,126 @@ Data Scientist Role Description: Ideal team member will have the mathematical an
 2024-09-18 22:17:10,103 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
 2024-09-18 22:17:10,115 - INFO - Constructed prompt: Context:
 on Skills – it is incredibly important to describe findings to a technical and non-technica...
+2024-09-25 22:28:22,821 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-25 22:28:31,622 - INFO - Saved uploaded file to temp_bc915865754e45a5aa21c718fce6d20e.pdf.
+2024-09-25 22:28:31,775 - INFO - Extracted text length: 4512
+2024-09-25 22:28:32,171 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-25 22:28:32,607 - INFO - Added 6 documents from Data Scientist - LSP.pdf to ChromaDB.
+2024-09-25 22:28:32,609 - INFO - Deleted temporary file temp_bc915865754e45a5aa21c718fce6d20e.pdf.
+2024-09-25 22:28:58,676 - INFO - Saved uploaded file to temp_0ef2cf9dc2bb464e871bb580e55f2878.pdf.
+2024-09-25 22:28:58,747 - INFO - Extracted text length: 4512
+2024-09-25 22:28:59,063 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-25 22:28:59,472 - INFO - Added 6 documents from Data Scientist - LSP.pdf to ChromaDB.
+2024-09-25 22:28:59,475 - INFO - Deleted temporary file temp_0ef2cf9dc2bb464e871bb580e55f2878.pdf.
+2024-09-25 22:29:07,145 - INFO - Saved uploaded file to temp_a8e6a10d9e8a44eca617aa79faa446c2.pdf.
+2024-09-25 22:29:07,262 - INFO - Extracted text length: 4512
+2024-09-25 22:29:07,597 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2024-09-25 22:29:07,984 - INFO - Added 6 documents from Data Scientist - LSP.pdf to ChromaDB.
+2024-09-25 22:29:07,987 - INFO - Deleted temporary file temp_a8e6a10d9e8a44eca617aa79faa446c2.pdf.
+2024-09-25 22:29:08,202 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 22:29:08,208 - ERROR - Error during query or response generation: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 22:33:11,599 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-25 22:33:17,718 - INFO - Saved uploaded file to temp_46c8e72895ca46d08f5ae0b69d7a473d.pdf.
+2024-09-25 22:33:17,829 - INFO - Extracted text length: 4512
+2024-09-25 22:33:18,168 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 22:33:18,171 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 22:33:18,176 - INFO - Deleted temporary file temp_46c8e72895ca46d08f5ae0b69d7a473d.pdf.
+2024-09-25 22:34:11,929 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-25 22:34:22,073 - INFO - Saved uploaded file to temp_d31e93719d794bcda9b6eb629e8e5ee4.pdf.
+2024-09-25 22:34:22,153 - INFO - Extracted text length: 4512
+2024-09-25 22:34:22,466 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 22:34:22,468 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 22:34:22,471 - INFO - Deleted temporary file temp_d31e93719d794bcda9b6eb629e8e5ee4.pdf.
+2024-09-25 22:52:27,196 - INFO - Saved uploaded file to temp_d1b9f52015084852a708fa99243c30be.pdf.
+2024-09-25 22:52:27,258 - INFO - Extracted text length: 4512
+2024-09-25 22:52:27,494 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 22:52:27,497 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 22:52:27,503 - INFO - Deleted temporary file temp_d1b9f52015084852a708fa99243c30be.pdf.
+2024-09-25 22:54:25,636 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-25 22:54:32,258 - INFO - Saved uploaded file to temp_671335d57b2a45578e3387fa30fef401.pdf.
+2024-09-25 22:54:32,336 - INFO - Extracted text length: 4512
+2024-09-25 22:54:32,684 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 22:54:32,686 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 22:54:32,689 - INFO - Deleted temporary file temp_671335d57b2a45578e3387fa30fef401.pdf.
+2024-09-25 23:27:39,012 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-25 23:27:47,225 - INFO - Saved uploaded file to temp_418754494b0e4756a57c4efd86c4322f.pdf.
+2024-09-25 23:27:47,315 - INFO - Extracted text length: 4512
+2024-09-25 23:27:47,687 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-25 23:27:47,689 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-25 23:27:47,692 - INFO - Deleted temporary file temp_418754494b0e4756a57c4efd86c4322f.pdf.
+2024-09-26 20:52:25,395 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-26 20:52:25,746 - WARNING - \u26a0\ufe0f It looks like you upgraded from a version below 0.6 and could benefit from vacuuming your database. Run chromadb utils vacuum --help for more information.
+2024-09-26 20:52:25,753 - INFO - Initialized ChromaDB client.
+2024-09-26 20:52:26,310 - ERROR - Error initializing ChromaDB: Expected EmbeddingFunction.__call__ to have the following signature: odict_keys(['self', 'input']), got odict_keys(['self', 'args', 'kwargs'])
+Please see https://docs.trychroma.com/guides/embeddings for details of the EmbeddingFunction interface.
+Please note the recent change to the EmbeddingFunction interface: https://docs.trychroma.com/deployment/migration#migration-to-0.4.16---november-7,-2023 
+
+2024-09-26 21:15:31,770 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-26 21:15:31,988 - INFO - Initialized ChromaDB client.
+2024-09-26 21:15:32,706 - INFO - Collection 'pdf_collection' is ready.
+2024-09-26 21:22:45,620 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-26 21:22:45,779 - INFO - Initialized ChromaDB client.
+2024-09-26 21:22:46,335 - INFO - Collection 'pdf_collection' is ready.
+2024-09-26 21:22:53,852 - INFO - Initialized ChromaDB client.
+2024-09-26 21:22:54,642 - INFO - Collection 'pdf_collection' is ready.
+2024-09-26 21:22:54,695 - INFO - Saved uploaded file to temp_27285788cefc409698db652ef59ea5b5.pdf.
+2024-09-26 21:22:54,695 - INFO - Extracting text from: temp_27285788cefc409698db652ef59ea5b5.pdf
+2024-09-26 21:22:54,781 - INFO - Successfully extracted text from temp_27285788cefc409698db652ef59ea5b5.pdf. Length: 4465 characters.
+2024-09-26 21:22:54,782 - INFO - Extracted text length: 4465
+2024-09-26 21:22:54,783 - INFO - Adding document: Renewable Energy Talent Solutions 
+Europe | Asia | Americas 
+www.lsprenewables.com 
+ 
+ 
+ 
+Data Scien...
+2024-09-26 21:22:54,784 - INFO - Adding document: nds-on experience with integrating and querying large data sets. 
+Ability to work with data to deriv...
+2024-09-26 21:22:54,785 - INFO - Adding document: market and an enthusiasm for leveraging 
+data science methodologies to enhance market insights. 
+ 
+S...
+2024-09-26 21:22:54,786 - INFO - Adding document: . 
+• 
+Strong analytical and problem-solving skills. 
+• 
+Excellent communication and presentation abi...
+2024-09-26 21:22:54,786 - INFO - Adding document: enue forecasting processes and integrate with 
+data warehouse (around GreenEarth, Origin, Plexos) wh...
+2024-09-26 21:22:55,170 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-26 21:22:55,173 - ERROR - Failed to add documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-26 21:22:55,175 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-26 21:22:55,178 - INFO - Deleted temporary file temp_27285788cefc409698db652ef59ea5b5.pdf.
+2024-09-26 21:23:40,292 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2024-09-26 21:23:40,464 - INFO - Initialized ChromaDB client.
+2024-09-26 21:23:41,091 - INFO - Collection 'pdf_collection' is ready.
+2024-09-26 21:23:45,769 - INFO - Initialized ChromaDB client.
+2024-09-26 21:23:46,517 - INFO - Collection 'pdf_collection' is ready.
+2024-09-26 21:23:46,532 - INFO - Saved uploaded file to temp_761153e44ee14dc6819d88cd959e3edb.pdf.
+2024-09-26 21:23:46,533 - INFO - Extracting text from: temp_761153e44ee14dc6819d88cd959e3edb.pdf
+2024-09-26 21:23:46,599 - INFO - Successfully extracted text from temp_761153e44ee14dc6819d88cd959e3edb.pdf. Length: 4465 characters.
+2024-09-26 21:23:46,600 - INFO - Extracted text length: 4465
+2024-09-26 21:23:46,601 - INFO - Adding document: Renewable Energy Talent Solutions 
+Europe | Asia | Americas 
+www.lsprenewables.com 
+ 
+ 
+ 
+Data Scien...
+2024-09-26 21:23:46,602 - INFO - Adding document: nds-on experience with integrating and querying large data sets. 
+Ability to work with data to deriv...
+2024-09-26 21:23:46,603 - INFO - Adding document: market and an enthusiasm for leveraging 
+data science methodologies to enhance market insights. 
+ 
+S...
+2024-09-26 21:23:46,603 - INFO - Adding document: . 
+• 
+Strong analytical and problem-solving skills. 
+• 
+Excellent communication and presentation abi...
+2024-09-26 21:23:46,604 - INFO - Adding document: enue forecasting processes and integrate with 
+data warehouse (around GreenEarth, Origin, Plexos) wh...
+2024-09-26 21:23:46,958 - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 401 Unauthorized"
+2024-09-26 21:23:46,959 - ERROR - Failed to add documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-26 21:23:46,961 - ERROR - Error adding documents to ChromaDB: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************e7QA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2024-09-26 21:23:46,964 - INFO - Deleted temporary file temp_761153e44ee14dc6819d88cd959e3edb.pdf.

@@ -1,3 +1,5 @@
+# app.py
+
 import streamlit as st
 from utils.pdf_processor import extract_text_from_pdf
 from utils.vector_store import (
@@ -10,10 +12,14 @@ from utils.openai_connector import generate_response
 import os
 import uuid
 import logging
+from dotenv import load_dotenv
 
 # Initialize logging
 from utils.logger import setup_logging
 setup_logging()
+
+# Load environment variables
+load_dotenv()
 
 # Constants
 MAX_FILE_SIZE = 10 * 1024 * 1024  # 10 MB
@@ -37,6 +43,9 @@ def split_text(text, chunk_size=1000, overlap=100):
         start = end - overlap  # Move back by 'overlap' characters
     return chunks
 
+# Set Streamlit page configuration at the very beginning
+st.set_page_config(page_title="Chat with PDF", page_icon="📄💬", layout="wide")
+
 # Initialize ChromaDB client and collection
 try:
     client = get_chroma_client()
@@ -45,8 +54,7 @@ except Exception as e:
     st.error(f"Error initializing ChromaDB: {e}")
     logging.error(f"Error initializing ChromaDB: {e}")
 
-# Streamlit App
-st.set_page_config(page_title="Chat with PDF", page_icon="📄💬", layout="wide")
+# Streamlit App Title
 st.title("📄💬 Chat with PDF")
 
 # Sidebar for PDF Upload
@@ -65,11 +73,11 @@ if uploaded_file:
                 with open(temp_pdf_path, "wb") as f:
                     f.write(uploaded_file.read())
                 logging.info(f"Saved uploaded file to {temp_pdf_path}.")
-                
+
                 # Extract text using PyMuPDF
                 text = extract_text_from_pdf(temp_pdf_path)
                 logging.info(f"Extracted text length: {len(text) if text else 'No text'}")
-                
+
                 if not text:
                     st.error("Failed to extract text from the uploaded PDF. Please try a different file.")
                 else:
@@ -77,7 +85,7 @@ if uploaded_file:
                     documents = split_text(text.strip())
                     metadatas = [{"source": uploaded_file.name, "chunk": i+1} for i in range(len(documents))]
                     ids = [str(uuid.uuid4()) for _ in range(len(documents))]
-                    
+
                     # Add to ChromaDB
                     try:
                         add_documents(collection, documents, metadatas, ids)
@@ -106,7 +114,7 @@ if st.button("Ask") and user_query:
             # Query ChromaDB
             query_results = query_collection(collection, user_query)
             retrieved_texts = query_results["documents"][0]
-            
+
             if not retrieved_texts:
                 st.error("No relevant information found in the uploaded PDFs.")
                 logging.info("Query returned no relevant documents.")
@@ -115,10 +123,10 @@ if st.button("Ask") and user_query:
                 context = "\n\n".join(retrieved_texts)
                 prompt = f"Context:\n{context}\n\nQuestion: {user_query}\nAnswer:"
                 logging.info(f"Constructed prompt: {prompt[:100]}...")  # Log first 100 chars
-                
+
                 # Generate response using OpenAI
                 answer = generate_response(prompt)
-            
+
                 st.write("**Answer:**")
                 st.write(answer)
         except Exception as e:
