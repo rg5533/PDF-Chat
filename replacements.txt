@@ -1,0 +1,5 @@
+# Exact secret to remove
+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==>***REMOVED***
+
+# Regex pattern to match any OpenAI API key starting with sk-
+regex:sk-[A-Za-z0-9]{24,}==>***REMOVED***
