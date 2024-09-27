@@ -4,13 +4,34 @@ venv/
 # Environment Variables
 .env
 
-# Python Bytecode
-__pycache__/
-*.pyc
-
-# Logs
+# Log Files
 *.log
 
-# Other files or directories to ignore
+# ChromaDB Persistent Storage
 chromadb/
-assets/
+chroma_db/
+
+# Python Bytecode and Caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and Editor Specific Files
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS Generated Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+Data Scientist - LSP.pdf
+inspect_chroma.py
+test_pdf_extraction.py
+JD_Data Scientist.pdf
+extracted_text.txt
+secrets.txt
+replacements.txt
